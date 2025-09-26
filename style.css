@@ -1,0 +1,123 @@
+ul {
+  text-align: center;
+  align-items: stretch;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #780606;
+  justify-content: space-between;
+  width: 100%;
+
+}
+li {
+  float: left;
+  list-style-type: none;
+}
+li a {
+  display: block;
+  flex: 0 1 auto;
+  color: white;
+  text-align: center;
+  padding: 5px 30px 5px;
+  text-decoration: none;
+}
+li img {
+  width: 200px;
+  height: 150px;
+}
+
+li a:hover {
+  background-color: #f11;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, #f00, yellow);
+}
+
+h1 {
+  color: #f00;
+  text-align: center;
+  text-shadow: 10px 10px black;
+  font-size: 150px;
+  margin: auto;
+}
+figcaption {
+  text-align: center;
+}
+#jakeDescript {
+  float: left;
+  display: inline-flex;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#kataDescript {
+  float: right;
+  display: inline-flex;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+#satoDescript {
+  float: left;
+  display: inline-flex;
+  height: 100%;
+  padding-bottom: 50px;
+}
+#samanthaDescript {
+  float: right;
+  display: inline-flex;
+  height: 100%;
+  padding-bottom: 50px;
+}
+#tozawaDescript {
+  float: left;
+  display: inline-flex;
+  height: 100%;
+  padding-bottom: 50px;
+}
+#bigPic img {
+  float: auto;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+#story {
+  padding-top: 50px;
+}
+p {
+  color: #f00;
+  background-image: conic-gradient(white, yellow, white);
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+}
+#intro {
+  color: #f00;
+}
+#title {
+  font-family: "Courier New",fantasy, monospace;
+}
+div.intro {
+  background-color: #f00;
+  opacity: 0;
+}
+
+div.iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chdescript {
+  color: red;
+  text-align: center;
+  font-size: 25px;
+  background-color: #fff;
+}
